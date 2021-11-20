@@ -1,4 +1,4 @@
-This repo shows a bug in firestore query. When querying for null values using "in" operator or "not-in" invalid results are returned or are not returned at all.
+This repo shows a bug in firestore query. When querying for null values using "in" operator or "not-in", invalid results are returned or are not returned at all.
 
 Firestore security rules are set as follows:
 ```
