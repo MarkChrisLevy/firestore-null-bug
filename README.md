@@ -13,6 +13,7 @@ service cloud.firestore {
 ```
 
 How to test it:
+* git clone https://github.com/MarkChrisLevy/firestore-null-bug
 * npm install
 * npm test
 
