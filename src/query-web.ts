@@ -75,7 +75,7 @@ import {collection, getFirestore, query, where, getDocs, deleteDoc, doc, setDoc}
         console.log("---query not-in [null]---")
         const resultNotIn = (await getDocs(query(collectionRef, where("field", "not-in", [null])))).docs;
         if (resultNotIn.length === 0) {
-            console.error("\x1b[31m", `bug: query didn't return any record, but it should return record with field=test`);
+            console.log("\x1b[31m", `bug: query didn't return any record, but it should return record with field=test`);
         } else {
             console.log("hmm, everything is ok...");
         }
