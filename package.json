@@ -1,0 +1,12 @@
+{
+  "name": "firestore-null-bug",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "ts-node src/query-web.ts"
+  },
+  "dependencies": {
+    "firebase": "^9.5.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}
